@@ -3,7 +3,7 @@ sudo: false
 script: mvn clean verify
 jdk:
   - oraclejdk8
-  notification:
+  notifications:
     email:
       - knute_knut@hotmail.com
 after_success:
