@@ -3,8 +3,5 @@ sudo: false
 script: mvn clean verify
 jdk:
   - oraclejdk8
-  notifications:
-    email:
-      - knute_knut@hotmail.com
 after_success:
   - bash <(curl -s https://codecov.io/bash)
